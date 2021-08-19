@@ -20,9 +20,12 @@ class Knowledge extends StatelessWidget {
             child: Text("Knowledge",
                 style: Theme.of(context).textTheme.subtitle2),
           ),
+          KnowledgeText(text : "Data Structures and Algorithms"),
+          KnowledgeText(text : "MySQL, PostgreSQL"),
           KnowledgeText(text : "Git/Github"),
           KnowledgeText(text : "VSCode"),
           KnowledgeText(text : "Bootstrap"),
+
 
         ]);
   }

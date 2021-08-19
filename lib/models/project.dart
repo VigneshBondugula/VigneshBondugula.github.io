@@ -4,35 +4,30 @@ class Project {
   Project({this.title, this.description});
 }
 
-List<Project> demo_projects = [
+List<Project> demoProjects = [
   Project(
-    title: "Responsive Admin Panel or Dashboard - Flutter UI",
+    title: "eManas Mitra - Patient App",
     description:
-        "On Flutter V2.* web officially supported on a stable branch. Today I share an Admin panel or you can call it dashboard UI build with flutter. Now you can build your app dashboard using flutter. This dashboard contains almost everything that you need like a chart, table, nice small card for showing info.",
+        "An app for patients registered in eManas to access their medical records and to manage medical consents. Built using Angular and Jersey. eManas APIs are used to build the project.",
   ),
   Project(
-    title: "E-Commerce Complate App - Flutter UI",
+    title: "Lecture Scheduling App",
     description:
-        "In the first part of our complete e-commerce app, we show you how you can create a nice clean onboarding screen for your e-commerce app that can run both Andriod and iOS devices because it builds with flutter. Then on the second episode, we build a Sign in, Forgot Password screen with a custom error indicator.",
+        "An app to schedule lectures and make timetables for students and teachers. Built using flask, html and css. ",
   ),
   Project(
-    title: "Outlook Email App Redesign - Flutter Fully Responsive Design UI",
+    title: "The Block Breaker - Game",
     description:
-        "We redesign the outlook app also make it responsive so that you can run it everywhere on your phone, tab, or web. In this flutter responsive video, we will show you the real power of flutter. Make mobile, web, and desktop app from a single codebase.",
+        "A game built during a hackathon using Javascript. Built using a model canvas given by Zense, Coding club of IIITB. Implemented using object oriented programming concepts.",
   ),
   Project(
-    title: "Chat/Messaging App Light and Dark Theme - Flutter UI",
+    title: "Game Show - Sockets",
     description:
-        "Today we gonna build messing/chat app #ui using #flutter that runs both Android and iOS devices also has a dark and light theme. We create in total 4 screens all of that support both Dark Theme and Light Theme. At first, we design a welcome screen that contains an image with a tag line also has a skip button.",
+        "A terminal based 3 player quiz game show built using python. Built using sockets. Each player gets 10 seconds to press the buzzer and the first player to press the buzzer gets 10 seconds to answer the question. ",
   ),
   Project(
-    title: "Welcome page, Login Page and Sign up page - Flutter UI",
+    title: "Super Market Billing System",
     description:
-        "In the first part of our complete e-commerce app, we show you how you can create a nice clean onboarding screen for your e-commerce app that can run both Andriod and iOS devices because it builds with flutter. Then on the second episode, we build a Sign in, Forgot Password screen with a custom error indicator.",
-  ),
-  Project(
-    title: "Covid-19 App - Flutter UI",
-    description:
-        "We redesign the outlook app also make it responsive so that you can run it everywhere on your phone, tab, or web. In this flutter responsive video, we will show you the real power of flutter. Make mobile, web, and desktop app from a single codebase.",
+        "A terminal based menu driven interface system to make bills in a market. Developed using C. User can check items available, add and delete items to the database.",
   ),
 ];
