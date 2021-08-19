@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/screens/home/components/achievements.dart';
 import 'package:portfolio/screens/main/main_screen.dart';
 
 import 'components/homebanner.dart';
@@ -16,10 +17,9 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return MainScreen(children: [
       HomeBanner(),
+      Achievement(),
       Projects(),
     ]);
   }
 }
-
-
 
