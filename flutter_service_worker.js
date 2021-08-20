@@ -8,10 +8,8 @@ const RESOURCES = {
 "assets/NOTICES": "155a0ab7e521e51d51af5d15691a5cb5",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/assets/images/IMG.jpeg": "2cb0219a2bf0a497f21c3a2587cf2aec",
 "assets/assets/images/back.jpg": "0dafb824fc913e13384b24b165ecf517",
-"assets/assets/images/971.jpg": "8f213f70b780c2d6a5c1b1b351439aad",
-"assets/assets/images/bg.jpeg": "c6449162dc3940daa640a43101cfd66c",
+"assets/assets/images/IMG.jpg": "57b995184e26433b704a7f76b511785a",
 "assets/assets/icons/instagram.svg": "98ece001bf392ab281d3877dcbd9f794",
 "assets/assets/icons/linkedin.svg": "5b2195ddf9e879047dd8a163c4194920",
 "assets/assets/icons/download.svg": "628700a3031424d215a441fab2da1731",
@@ -19,15 +17,16 @@ const RESOURCES = {
 "assets/assets/icons/dribble.svg": "d392567c5678d42472d2c7b766268101",
 "assets/assets/icons/twitter.svg": "a4a0163fef48a4247a305528c07bc4fa",
 "assets/assets/icons/github.svg": "9226aa209923e38c0a6ddcb236e2bc68",
+"assets/assets/icons/cr.svg": "d8a4b9916de3d9963363855dbdbd9057",
 "assets/assets/icons/behance.svg": "35ad2d47e647d0b168e7707b2984c6b5",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/AssetManifest.json": "d3d5d2f84b726b4bd2c0d67f212e5e11",
-"main.dart.js": "ed384b337d8b5cb9f6e990ac9371b971",
+"assets/AssetManifest.json": "6fa9d4f368de40d4530f75e0eb31f6f2",
+"main.dart.js": "4670d3651e81434e8975543569651276",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "manifest.json": "a83bbbd9d23ea4d752fbcd44cdc544fa",
-"index.html": "bf51a850476a0fd3d2b42f4b6fc8fe7a",
-"/": "bf51a850476a0fd3d2b42f4b6fc8fe7a"
+"index.html": "3e22babc855cfd99d5dfc8c1b6f4597b",
+"/": "3e22babc855cfd99d5dfc8c1b6f4597b"
 };
 
 // The application shell files that are downloaded before a service worker can
