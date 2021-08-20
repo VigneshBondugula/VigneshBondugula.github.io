@@ -64,21 +64,23 @@ class SideMenu extends StatelessWidget {
                         Spacer(),
                         IconButton(
                           onPressed: () {
-                            _launchURL("https://www.linkedin.com/in/vignesh-bondugula-0362361a9");
+                            _launchURL(
+                                "https://www.linkedin.com/in/vignesh-bondugula-0362361a9");
                           },
                           splashRadius: 25,
                           icon: SvgPicture.asset("assets/icons/linkedin.svg"),
                         ),
                         IconButton(
                           onPressed: () {
-                            _launchURL("https://github.com/VigneshBondugula"); 
+                            _launchURL("https://github.com/VigneshBondugula");
                           },
                           splashRadius: 25,
                           icon: SvgPicture.asset("assets/icons/github.svg"),
                         ),
                         IconButton(
                           onPressed: () {
-                            _launchURL("https://www.instagram.com/vignesh_bondugula?r=nametag");
+                            _launchURL(
+                                "https://www.instagram.com/vignesh_bondugula?r=nametag");
                           },
                           splashRadius: 25,
                           icon: SvgPicture.asset("assets/icons/instagram.svg"),
@@ -86,7 +88,18 @@ class SideMenu extends StatelessWidget {
                         Spacer(),
                       ],
                     ),
-                  )
+                  ),
+                  Row(
+                    children: [
+                      Spacer(),
+                      IconButton(
+                        onPressed: () {},
+                        icon: SvgPicture.asset("assets/icons/cr.svg"),
+                      ),
+                      Text("Vignesh Bondugula"),
+                      Spacer()
+                    ],
+                  ),
                 ],
               ),
             ),
@@ -97,6 +110,5 @@ class SideMenu extends StatelessWidget {
   }
 }
 
-void _launchURL(_url) async => await canLaunch(_url)
-      ? await launch(_url)
-      : throw 'Could not launch $_url';
+void _launchURL(_url) async =>
+    await canLaunch(_url) ? await launch(_url) : throw 'Could not launch $_url';

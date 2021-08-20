@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:portfolio/constants.dart';
 
+import '../../../responsive.dart';
 
 class HomeBanner extends StatelessWidget {
   const HomeBanner({
@@ -30,8 +31,11 @@ class HomeBanner extends StatelessWidget {
               children: [
                 Text(
                   "Discover my work space!",
-                  style: Theme.of(context).textTheme.headline3!.copyWith(
-                      fontWeight: FontWeight.bold, color: Colors.white),
+                  style: Responsive.isDesktop(context)
+                      ? Theme.of(context).textTheme.headline3!.copyWith(
+                          fontWeight: FontWeight.bold, color: Colors.white)
+                      : Theme.of(context).textTheme.headline6!.copyWith(
+                          fontWeight: FontWeight.bold, color: Colors.white),
                 ),
                 Row(
                   children: [

@@ -20,7 +20,8 @@ class Knowledge extends StatelessWidget {
             child: Text("Knowledge",
                 style: Theme.of(context).textTheme.subtitle2),
           ),
-          KnowledgeText(text : "Data Structures and Algorithms"),
+          KnowledgeText(text : "Data Structures"),
+          KnowledgeText(text : "Algorithms"),
           KnowledgeText(text : "MySQL, PostgreSQL"),
           KnowledgeText(text : "Git/Github"),
           KnowledgeText(text : "VSCode"),
@@ -45,7 +46,7 @@ class KnowledgeText extends StatelessWidget {
         children:[
           SvgPicture.asset("assets/icons/check.svg"),
           SizedBox(width: defaultPadding/2),
-          Text(text)
+          Text(text, maxLines: 2, overflow: TextOverflow.ellipsis,)
         ]
       ),
     );
