@@ -10,23 +10,23 @@ const RESOURCES = {
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/assets/images/back.jpg": "0dafb824fc913e13384b24b165ecf517",
 "assets/assets/images/IMG.jpg": "57b995184e26433b704a7f76b511785a",
-"assets/assets/icons/instagram.svg": "98ece001bf392ab281d3877dcbd9f794",
-"assets/assets/icons/linkedin.svg": "5b2195ddf9e879047dd8a163c4194920",
+"assets/assets/icons/instagram.svg": "46cff07c88d7d630b603400382b82d0d",
+"assets/assets/icons/linkedin.svg": "414c24128a27e318278594def34ae4f8",
+"assets/assets/icons/cr.png": "5416b4651f020eec0dc6041eb7fe4388",
 "assets/assets/icons/download.svg": "628700a3031424d215a441fab2da1731",
 "assets/assets/icons/check.svg": "4220c82511cc1dfb40b8bba7d25c5f55",
 "assets/assets/icons/dribble.svg": "d392567c5678d42472d2c7b766268101",
 "assets/assets/icons/twitter.svg": "a4a0163fef48a4247a305528c07bc4fa",
-"assets/assets/icons/github.svg": "9226aa209923e38c0a6ddcb236e2bc68",
-"assets/assets/icons/cr.svg": "d8a4b9916de3d9963363855dbdbd9057",
+"assets/assets/icons/github.svg": "642525f695e382a55e5991af2e3e77e9",
 "assets/assets/icons/behance.svg": "35ad2d47e647d0b168e7707b2984c6b5",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/AssetManifest.json": "6fa9d4f368de40d4530f75e0eb31f6f2",
-"main.dart.js": "4670d3651e81434e8975543569651276",
+"assets/AssetManifest.json": "4f991d1799785d08779b9ff460bcda27",
+"main.dart.js": "d2809bfb08a7dcc38f75f9962bf25b02",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "manifest.json": "a83bbbd9d23ea4d752fbcd44cdc544fa",
-"index.html": "3e22babc855cfd99d5dfc8c1b6f4597b",
-"/": "3e22babc855cfd99d5dfc8c1b6f4597b"
+"index.html": "b4b41c6ace84a198984fd3a7010d5062",
+"/": "b4b41c6ace84a198984fd3a7010d5062"
 };
 
 // The application shell files that are downloaded before a service worker can
