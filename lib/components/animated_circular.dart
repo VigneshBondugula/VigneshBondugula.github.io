@@ -29,7 +29,7 @@ class AnimatedCircularProgressIndicator extends StatelessWidget {
                 ),
                 Center(
                   child: Text(
-                    (value * 100).toString() + "%",
+                    (value * 100).round().toString() + "%",
                     style: Theme.of(context).textTheme.subtitle1,
                   ),
                 )

@@ -27,7 +27,7 @@ class AnimatedLinearProgressionIndicator extends StatelessWidget {
                   title,
                   style: TextStyle(color: Colors.white),
                 ),
-                Text((value * 100).toString()),
+                Text((value * 100).round().toString()),
               ],
             ),
             SizedBox(height: defaultPadding / 2),

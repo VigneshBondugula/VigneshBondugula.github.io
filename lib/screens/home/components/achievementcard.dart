@@ -13,7 +13,7 @@ class AchievmentCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-          padding: const EdgeInsets.all(defaultPadding),
+          padding: const EdgeInsets.symmetric(horizontal: defaultPadding, vertical: defaultPadding/2),
           color: secondaryColor,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,

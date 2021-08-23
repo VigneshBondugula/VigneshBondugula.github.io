@@ -27,7 +27,7 @@ class SideMenu extends StatelessWidget {
                 children: [
                   InfoText(title: "Residence", text: "India"),
                   InfoText(title: "City", text: "Bangalore"),
-                  InfoText(title: "CGPA", text: "3.77"),
+                  InfoText(title: "CGPA", text: "3.77 / 4.00"),
                   Skills(),
                   Coding(),
                   Knowledge(),
@@ -36,7 +36,10 @@ class SideMenu extends StatelessWidget {
                     width: defaultPadding / 2,
                   ),
                   TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      _launchURL(
+                          "https://drive.google.com/file/d/1gd1l4zyFhfScXo-2NZyAT2nmFKotC1Dd/view?usp=sharing");
+                    },
                     child: FittedBox(
                       child: Row(
                         children: [
@@ -58,47 +61,58 @@ class SideMenu extends StatelessWidget {
                   ),
                   Container(
                     margin: EdgeInsets.only(top: defaultPadding),
-                    color: Color(0xFF24242E),
-                    child: Row(
+                    color: primaryColor,
+                    child: Column(
                       children: [
-                        Spacer(),
-                        IconButton(
-                          onPressed: () {
-                            _launchURL(
-                                "https://www.linkedin.com/in/vignesh-bondugula-0362361a9");
-                          },
-                          splashRadius: 25,
-                          icon: SvgPicture.asset("assets/icons/linkedin.svg"),
+                        Row(
+                          children: [
+                            Spacer(),
+                            IconButton(
+                              onPressed: () {
+                                _launchURL(
+                                    "https://www.linkedin.com/in/vignesh-bondugula-0362361a9");
+                              },
+                              splashRadius: 25,
+                              icon:
+                                  SvgPicture.asset("assets/icons/linkedin.svg"),
+                            ),
+                            IconButton(
+                              onPressed: () {
+                                _launchURL(
+                                    "https://github.com/VigneshBondugula");
+                              },
+                              splashRadius: 25,
+                              icon: SvgPicture.asset("assets/icons/github.svg"),
+                            ),
+                            IconButton(
+                              onPressed: () {
+                                _launchURL(
+                                    "https://www.instagram.com/vignesh_bondugula?r=nametag");
+                              },
+                              splashRadius: 25,
+                              icon: SvgPicture.asset(
+                                  "assets/icons/instagram.svg"),
+                            ),
+                            Spacer(),
+                          ],
                         ),
-                        IconButton(
-                          onPressed: () {
-                            _launchURL("https://github.com/VigneshBondugula");
-                          },
-                          splashRadius: 25,
-                          icon: SvgPicture.asset("assets/icons/github.svg"),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(
+                              vertical: defaultPadding / 2),
+                          child: Row(
+                            children: [
+                              Spacer(),
+                              Image.asset("assets/icons/cr.png"),
+                              Text(
+                                "Vignesh Bondugula",
+                                style: TextStyle(color: darkColor),
+                              ),
+                              Spacer()
+                            ],
+                          ),
                         ),
-                        IconButton(
-                          onPressed: () {
-                            _launchURL(
-                                "https://www.instagram.com/vignesh_bondugula?r=nametag");
-                          },
-                          splashRadius: 25,
-                          icon: SvgPicture.asset("assets/icons/instagram.svg"),
-                        ),
-                        Spacer(),
                       ],
                     ),
-                  ),
-                  Row(
-                    children: [
-                      Spacer(),
-                      IconButton(
-                        onPressed: () {},
-                        icon: SvgPicture.asset("assets/icons/cr.svg"),
-                      ),
-                      Text("Vignesh Bondugula"),
-                      Spacer()
-                    ],
                   ),
                 ],
               ),

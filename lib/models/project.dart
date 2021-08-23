@@ -23,7 +23,7 @@ List<Project> demoProjects = [
   Project(
     title: "Game Show - Sockets",
     description:
-        "A terminal based 3 player quiz game show built using python. Built using sockets. Each player gets 10 seconds to press the buzzer and the first player to press the buzzer gets 10 seconds to answer the question. ",
+        "A terminal based 3 player quiz game show built using python. Built using sockets. Each player gets 10 seconds to press the buzzer and 10 seconds to answer the question. ",
   ),
   Project(
     title: "Super Market Billing System",
